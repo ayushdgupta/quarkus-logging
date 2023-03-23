@@ -26,6 +26,10 @@ dependencies {
     implementation 'io.quarkus:quarkus-rest-client-jackson'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+
+    // for log4j2 let's see how it works
+    implementation 'org.jboss.logmanager:log4j2-jboss-logmanager'
+
 }
 
 group 'com.guptaji'
